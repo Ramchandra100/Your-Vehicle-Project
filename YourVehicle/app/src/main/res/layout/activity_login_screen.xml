@@ -29,7 +29,7 @@
         android:text="Login"
 
         android:textColor="#000000"
-        android:textSize="25sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.495"
@@ -44,34 +44,39 @@
         android:fontFamily="@font/poppins"
         android:text="Forget Password?"
         android:textColor="#282727"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/login_pass"
         app:layout_constraintTop_toBottomOf="@+id/login_pass" />
 
     <EditText
         android:id="@+id/login_email"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="64dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/input_bg_login"
         android:ems="10"
+
         android:hint="Email"
         android:inputType="text"
-
         android:minWidth="300dp"
         android:paddingLeft="15dp"
         android:textColor="#000000"
         android:textColorHint="#282727"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/login_text"
         app:layout_constraintStart_toStartOf="@+id/login_text"
         app:layout_constraintTop_toBottomOf="@+id/login_text" />
 
     <EditText
         android:id="@+id/login_pass"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/input_bg_login"
         android:ems="10"
         android:hint="Password"
@@ -80,6 +85,7 @@
         android:paddingLeft="15dp"
         android:textColor="#000000"
         android:textColorHint="#282727"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/login_email"
         app:layout_constraintStart_toStartOf="@+id/login_email"
         app:layout_constraintTop_toBottomOf="@+id/login_email" />
@@ -91,6 +97,7 @@
         android:layout_marginBottom="180dp"
         android:background="@drawable/login_bottun_bg"
         android:text="Login"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/login_pass"
         app:layout_constraintHorizontal_bias="0.557"
@@ -102,7 +109,7 @@
         android:layout_height="35dp"
         android:background="@drawable/login_down_shape_bg"
         android:text="@string/don_t_have_account"
-        android:textSize="15sp"
+        android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="@+id/login_button"
         app:layout_constraintStart_toStartOf="@+id/login_button"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
